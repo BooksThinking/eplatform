@@ -20,5 +20,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/MySoftware/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://D:/MySoftware/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48/src" />
+        </SOURCES>
+        <jarDirectory url="file://D:/MySoftware/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
