@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="eplatform:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/eplatform_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="eplatform/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eplatform" />
+        </element>
+      </element>
+      <element id="dir-copy" path="D:/MySoftware/apache-tomcat-9.0.29-windows-x64/apache-tomcat-9.0.29/webapps" />
+    </root>
+  </artifact>
+</component>
