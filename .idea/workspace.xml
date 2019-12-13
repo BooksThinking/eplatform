@@ -7,30 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b03b540-796e-4381-81f9-e781da4a3386" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ECP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/java/controller/ECP_DATABASE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/java/controller/EcpApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/java/entity/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/resources/HTML/ECP_HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/resources/HTML/second.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ECP/src/main/resources/JS/ECP_Js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/eplatformDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/loginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/production.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/loginSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/JS/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/first.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/src/second.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/eplatformServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/getProduction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eplatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eplatform.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/ECP_HTML.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/WEB-INF/classes/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/WEB-INF/classes/servlet/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/loginSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/loginSuccess.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/eplatform/servlet/loginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eplatform/servlet/loginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/eplatformDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/eplatformDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servlet/loginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/loginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ECP_HTML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginSuccess.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,15 +28,45 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/dao/eplatformDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="313">
+              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/loginDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="21" column="15" selection-start-line="19" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/servlet/eplatformServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -66,68 +81,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/production.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dao/eplatformDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/loginDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/user.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#center#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#center#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#center#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/getProduction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -139,6 +108,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,13 +121,17 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/ECP_HTML.html" />
         <option value="$PROJECT_DIR$/src/entities/user.java" />
-        <option value="$PROJECT_DIR$/src/dao/loginDao.java" />
-        <option value="$PROJECT_DIR$/src/servlet/loginServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/loginSuccess.html" />
         <option value="$PROJECT_DIR$/web/login.html" />
-        <option value="$PROJECT_DIR$/web/loginSuccess.html" />
         <option value="$PROJECT_DIR$/src/entities/production.java" />
+        <option value="$PROJECT_DIR$/web/html/loginSuccess.html" />
+        <option value="$PROJECT_DIR$/web/html/login.html" />
+        <option value="$PROJECT_DIR$/src/servlet/loginServlet.java" />
+        <option value="$PROJECT_DIR$/web/loginSuccess.html" />
+        <option value="$PROJECT_DIR$/src/dao/loginDao.java" />
         <option value="$PROJECT_DIR$/src/dao/eplatformDao.java" />
+        <option value="$PROJECT_DIR$/web/js/getProduction.js" />
+        <option value="$PROJECT_DIR$/src/servlet/eplatformServlet.java" />
       </list>
     </option>
   </component>
@@ -187,7 +161,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,12 +183,18 @@
               <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="eplatform" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="eplatform" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eplatform" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
@@ -230,13 +209,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/MySoftware/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -247,6 +227,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\12455\IdeaProjects\eplatform\web" />
+      <recent name="C:\Users\12455\IdeaProjects\eplatform\web\html" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12455\IdeaProjects\eplatform\web" />
@@ -397,7 +378,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.2627346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.26876676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,7 +388,7 @@
       <window_info id="Web" order="7" sideWeight="0.50147057" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33529413" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2602941" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +412,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.2627346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.269437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,7 +422,7 @@
       <window_info id="Web" order="7" sideWeight="0.50147057" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5352941" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2602941" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,42 +452,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
     <entry file="file://$PROJECT_DIR$/web/ECP_HTML.html" />
-    <entry file="file://$PROJECT_DIR$/src/entities/user.java">
+    <entry file="file://$PROJECT_DIR$/src/entities/user.java" />
+    <entry file="file://$PROJECT_DIR$/src/entities/production.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="213">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/eplatformDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/loginDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#center#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#center#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#center#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="21" column="15" selection-start-line="19" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -517,31 +492,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entities/production.java">
+    <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#center#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/eplatformDao.java">
+    <entry file="file://$PROJECT_DIR$/web/js/getProduction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/eplatformServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
