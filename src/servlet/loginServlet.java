@@ -20,10 +20,11 @@ public class loginServlet extends HttpServlet {
         if (loginDao.checkUser(requestUser)){
             //如果存在这个用户我们能够跳转到电商平台页面
             resp.setContentType("text/html; charset=UTF-8");
-            resp.sendRedirect("/loginSuccess.html");
+            resp.sendRedirect("/loginSuccess.jsp");
         }else{
             //如果用户不存在我们就注册或者是重新输入密码和用户名
-            resp.getWriter().write("你这个用户名错误");
+            resp.setContentType("text/html; charset=UTF-8");
+            resp.sendRedirect("/login.html");
         }
     }
 

@@ -7,6 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class eplatformDao {
+
+//    public static void main(String[] args) {
+//        eplatformDao dao = new eplatformDao();
+//        List<production> result = dao.getAllProduction();
+//        System.out.println(result.get(4).getProductionName());
+//        System.out.println(result.get(4).getProductionPrice());
+//        System.out.println(result.get(4).getProductionNumber());
+//    }
+
     public List<production> getAllProduction(){
         List<production> productionList = new ArrayList<>();
         String driverClassName = "com.mysql.jdbc.Driver";
