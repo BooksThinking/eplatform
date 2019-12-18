@@ -1,7 +1,7 @@
-<%@ page import="servlet.eplatformServlet" %>
+<%@ page import="dao.eplatformDao" %>
 <%@ page import="java.util.List" %>
 <%@ page import="entities.production" %>
-<%@ page import="java.util.ArrayList" %><%--
+<%@ page import="java.util.Iterator" %><%--
   Created by IntelliJ IDEA.
   User: 12455
   Date: 2019/12/14
@@ -19,46 +19,85 @@
         }
     </style>
 </head>
-<body>
-<form action="/eplatformServlet">
+<body onload="a()">
+<form action="/eplatformServlet" method="post">
     <div class="container">
         <div>
-            <img src="img/xiaomi8.jpg" height="200px" width="200px">
-            <b id="production1">商品1</b>
+            <img src="img/xiaomi8.jpg" height="300px" width="300px">
+            <li>商品名称:<b id="production1">商品1</b></li>
+            <li>商品价格:<b id="price1">价格1</b></li>
+            <li>商品数量:<b id="number1">数量1</b></li>
+            <input type="text" value="0" name="count1">
+            <input type="button" value="+" onclick="javascript:this.form.count1.value++;">
+            <input type="button" value="-" onclick="javascript:this.form.count1.value--;">
         </div>
         <div>
-            <img src="img/xiaomi9.jpg" height="200px" width="200px">
-            <b id="production2">商品2</b>
+            <img src="img/xiaomi9.jpg" height="300px" width="300px">
+            <li>商品名称:<b id="production2">商品2</b></li>
+            <li>商品价格:<b id="price2">价格2</b></li>
+            <li>商品数量:<b id="number2">数量2</b></li>
+            <input type="text" value="0" name="count2">
+            <input type="button" value="+" onclick="javascript:this.form.count2.value++;">
+            <input type="button" value="-" onclick="javascript:this.form.count2.value--;">
         </div>
         <div>
-            <img src="img/redminote8.jpg" height="200px" width="200px">
-            <b id="production3">商品3</b>
+            <img src="img/redminote8.jpg" height="300px" width="300px">
+            <li>商品名称:<b id="production3">商品3</b></li>
+            <li>商品价格:<b id="price3">价格3</b></li>
+            <li>商品数量:<b id="number3">数量3</b></li>
+            <input type="text" value="0" name="count3">
+            <input type="button" value="+" onclick="javascript:this.form.count3.value++;">
+            <input type="button" value="-" onclick="javascript:this.form.count3.value--;">
         </div>
         <div>
-            <img src="img/redmik20pro.jpg" height="200px" width="200px">
-            <b id="production4">商品4</b>
+            <img src="img/redmik20pro.jpg" height="300px" width="300px">
+            <li>商品名称:<b id="production4">商品4</b></li>
+            <li>商品价格:<b id="price4">价格4</b></li>
+            <li>商品数量:<b id="number4">数量4</b></li>
+            <input type="text" value="0" name="count4">
+            <input type="button" value="+" onclick="javascript:this.form.count4.value++;">
+            <input type="button" value="-" onclick="javascript:this.form.count4.value--;">
         </div>
         <div>
-            <img src="img/iphone.jpg" height="200px" width="200px">
-            <b id="production5">商品5</b>
+            <img src="img/iphone.jpg" height="300px" width="300px">
+            <li>商品名称:<b id="production5">价格5</b></li>
+            <li>商品价格:<b id="price5">价格5</b></li>
+            <li>商品数量:<b id="number5">数量5</b></li>
+            <input type="text" value="0" name="count5">
+            <input type="button" value="+" onclick="javascript:this.form.count5.value++;">
+            <input type="button" value="-" onclick="javascript:this.form.count5.value--;">
         </div>
+    <input type="submit" value="购买所有选中商品">
     </div>
-    <script>
-        <%
-        eplatformServlet servlet = new eplatformServlet();
-        List<production> productionList = servlet.getProduction();
-        List<String> productionName = new ArrayList<>();
-        List<String> productionPrice = new ArrayList<>();
-        List<String> productionNumber = new ArrayList<>();
-        for (int i = 0;i < 5;i++){
-            productionName.add(productionList.get(i).getProductionName());
-            productionPrice.add(productionList.get(i).getProductionPrice());
-            productionNumber.add(productionList.get(i).getProductionNumber());
-        }
-        %>
-        var name = <%=productionName.get(0)%>;
-        document.getElementsByName("b")[0].innerHTML(name);
-     </script>
+
 </form>
+<script type="text/javascript">
+    <%
+    eplatformDao dao = new eplatformDao();
+    List<production> result = dao.getAllProduction();
+    String name1 = result.get(0).getProductionName();int price1 = result.get(0).getProductionPrice();int number1 = result.get(0).getProductionNumber();
+    String name2 = result.get(1).getProductionName();int price2 = result.get(1).getProductionPrice();int number2 = result.get(1).getProductionNumber();
+    String name3 = result.get(2).getProductionName();int price3 = result.get(2).getProductionPrice();int number3 = result.get(2).getProductionNumber();
+    String name4 = result.get(3).getProductionName();int price4 = result.get(3).getProductionPrice();int number4 = result.get(3).getProductionNumber();
+    String name5 = result.get(4).getProductionName();int price5 = result.get(4).getProductionPrice();int number5 = result.get(4).getProductionNumber();
+    %>
+    document.getElementById("production1").innerHTML = "<%=name1%>";
+    document.getElementById("production2").innerHTML = "<%=name2%>";
+    document.getElementById("production3").innerHTML = "<%=name3%>";
+    document.getElementById("production4").innerHTML = "<%=name4%>";
+    document.getElementById("production5").innerHTML = "<%=name5%>";
+
+    document.getElementById("price1").innerHTML = "<%=price1%>";
+    document.getElementById("price2").innerHTML = "<%=price2%>";
+    document.getElementById("price3").innerHTML = "<%=price3%>";
+    document.getElementById("price4").innerHTML = "<%=price4%>";
+    document.getElementById("price5").innerHTML = "<%=price5%>";
+
+    document.getElementById("number1").innerHTML = "<%=number1%>";
+    document.getElementById("number2").innerHTML = "<%=number2%>";
+    document.getElementById("number3").innerHTML = "<%=number3%>";
+    document.getElementById("number4").innerHTML = "<%=number4%>";
+    document.getElementById("number5").innerHTML = "<%=number5%>";
+</script>
 </body>
 </html>

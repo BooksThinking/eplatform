@@ -9,13 +9,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/eplatformServlet")
 public class eplatformServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("192.168.47.1:8000/login");
+        List<Integer> shopCar = new ArrayList<>();
+        for (int i = 1;i <= 5;i++){
+            shopCar.add(Integer.parseInt(req.getParameter("count"+i)));
+        }
     }
 
     /**

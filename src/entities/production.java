@@ -8,8 +8,8 @@ public class production {
      */
 
     private String productionName;
-    private String productionPrice;
-    private String productionNumber;
+    private int productionPrice;
+    private int productionNumber;
 
     public String getProductionName() {
         return productionName;
@@ -19,19 +19,19 @@ public class production {
         this.productionName = productionName;
     }
 
-    public String getProductionPrice() {
+    public int getProductionPrice() {
         return productionPrice;
     }
 
-    public void setProductionPrice(String productionPrice) {
+    public void setProductionPrice(int productionPrice) {
         this.productionPrice = productionPrice;
     }
 
-    public String getProductionNumber() {
+    public int getProductionNumber() {
         return productionNumber;
     }
 
-    public void setProductionNumber(String productionNumber) {
+    public void setProductionNumber(int productionNumber) {
         this.productionNumber = productionNumber;
     }
 }

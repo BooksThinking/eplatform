@@ -32,8 +32,8 @@ public class eplatformDao {
             while (rs.next()) {
                 production a = new production();
                 a.setProductionName(rs.getString("productionName"));
-                a.setProductionPrice(rs.getString("productionPrice"));
-                a.setProductionNumber(rs.getString("productionNumber"));
+                a.setProductionPrice(rs.getInt("productionPrice"));
+                a.setProductionNumber(rs.getInt("productionNumber"));
                 productionList.add(a);
             }
         } catch (ClassNotFoundException e) {
