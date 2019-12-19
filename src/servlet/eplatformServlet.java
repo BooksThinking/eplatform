@@ -17,7 +17,7 @@ import java.util.List;
 public class eplatformServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        shopInfo transeInfo = new shopInfo();
+//        shopInfo transeInfo = new shopInfo();
         List<production> productionList = getProduction();
         int count = 0;
         for (int i = 1;i <= 5;i++){
@@ -28,11 +28,28 @@ public class eplatformServlet extends HttpServlet {
             }
         }
         Cookie[] cookies = req.getCookies();
+        String userName = null;
+        String userPassword = null;
         for (Cookie temp: cookies){
-            System.out.println(temp.getName()+"    "+temp.getValue());
+            if (temp.getName() == "userName"){
+                userName = temp.getValue();
+            }
+            if (temp.getName() == "userPassword"){
+                userPassword = temp.getValue();
+            }
         }
         req.getAttribute("userPassword");
-        transeInfo.setCount(count);
+        Cookie countCookie = new Cookie("count",String.valueOf(count));
+        Cookie nameCookie = new Cookie("userName",userName);
+        Cookie passwordCookie = new Cookie("userPassword",userPassword);
+        resp.addCookie(countCookie);
+        resp.addCookie(nameCookie);
+        resp.addCookie(passwordCookie);
+//        transeInfo.setCount(count);
+//        transeInfo.setUserName(userName);
+//        transeInfo.setUserPassword(userPassword);
+        System.out.println("运行成功");
+        resp.sendRedirect("http://192.168.137.197:8000");
     }
 
     /**
