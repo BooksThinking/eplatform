@@ -2,6 +2,7 @@ package servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,7 +20,11 @@ public class loginServlet extends HttpServlet {
         loginDao loginDao = new loginDao();
         if (loginDao.checkUser(requestUser)){
             //如果存在这个用户我们能够跳转到电商平台页面
+            Cookie cookie1 = new Cookie("userName",userName);
+            Cookie cookie2 = new Cookie("userPassword",userPassword);
             resp.setContentType("text/html; charset=UTF-8");
+            resp.addCookie(cookie1);
+            resp.addCookie(cookie2);
             resp.sendRedirect("/loginSuccess.jsp");
         }else{
             //如果用户不存在我们就注册或者是重新输入密码和用户名
