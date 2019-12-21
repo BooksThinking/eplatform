@@ -10,14 +10,15 @@ import java.security.interfaces.RSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
-public class eplatformDao {
+public class registDao {
 
+//    public static void main(String[] args) {
+//        registDao dao = new registDao();
+//        dao.regist("zhong","213213");
+//    }
 
-    public List<production> getAllProduction(){
-        List<production> productionList = new ArrayList<>();
+    public boolean regist(String registName,String registPassword){
         String driverClassName = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/eplatform";
         String userName = "root";
@@ -26,25 +27,22 @@ public class eplatformDao {
             Class.forName(driverClassName);
             Connection connection = DriverManager.getConnection(url, userName, userPassword);
             Statement statement = connection.createStatement();
-            String sql = "select * from production";
-            ResultSet rs = statement.executeQuery(sql);
-
-            while (rs.next()) {
-                production a = new production();
-                a.setProductionName(rs.getString("productionName"));
-                a.setProductionPrice(rs.getInt("productionPrice"));
-                a.setProductionNumber(rs.getInt("productionNumber"));
-                productionList.add(a);
-            }
+            String tempUserName = encrypt(registName,"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/gb6XWQWu/XLFZFunAkLDi7dFoLpAH/Hb0xaAN149m6yKsVePP1YnwBvdD/9wYqJvyiCr6SS/fH1eRnMUPEjq9doB74SqPiam+FcDmVUwZalJtL0xAl8VV434BUnMX1i6diWGAj3O79hLdNigkUEMkUEl8YXk1rLRJ3REBEIpwQIDAQAB");
+            String tempUserPassword = encrypt(registPassword,"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/gb6XWQWu/XLFZFunAkLDi7dFoLpAH/Hb0xaAN149m6yKsVePP1YnwBvdD/9wYqJvyiCr6SS/fH1eRnMUPEjq9doB74SqPiam+FcDmVUwZalJtL0xAl8VV434BUnMX1i6diWGAj3O79hLdNigkUEMkUEl8YXk1rLRJ3REBEIpwQIDAQAB");
+            String sql = "insert into user values ('"+tempUserName+"','"+tempUserPassword+"')";
+            boolean result = statement.execute(sql);
+            return result;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
+        }catch (Exception e) {
+            e.printStackTrace();
         }
-        return productionList;
+        return false;
     }
 
-    public String decrypt(String str, String privateKey) throws Exception{
+    public static String decrypt(String str, String privateKey) throws Exception{
         //64位解码加密后的字符串
         byte[] inputByte = Base64.decodeBase64(str.getBytes("UTF-8"));
         //base64编码的私钥
@@ -57,9 +55,7 @@ public class eplatformDao {
         return outStr;
     }
 
-
-
-    public String encrypt( String str, String publicKey ) throws Exception{
+    public static String encrypt( String str, String publicKey ) throws Exception{
         //base64编码的公钥
         byte[] decoded = Base64.decodeBase64(publicKey);
         RSAPublicKey pubKey = (RSAPublicKey) KeyFactory.getInstance("RSA").generatePublic(new X509EncodedKeySpec(decoded));
@@ -69,5 +65,4 @@ public class eplatformDao {
         String outStr = Base64.encodeBase64String(cipher.doFinal(str.getBytes("UTF-8")));
         return outStr;
     }
-
 }

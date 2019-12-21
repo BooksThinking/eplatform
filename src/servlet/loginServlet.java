@@ -29,7 +29,7 @@ public class loginServlet extends HttpServlet {
         }else{
             //如果用户不存在我们就注册或者是重新输入密码和用户名
             resp.setContentType("text/html; charset=UTF-8");
-            resp.sendRedirect("/login.html");
+            resp.sendRedirect("/index.html");
         }
     }
 

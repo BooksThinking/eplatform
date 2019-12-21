@@ -20,7 +20,7 @@
         <b>支付成功！感谢惠顾，请点击按钮返回商店页面</b>
     </center>
     <center>
-        <button style="margin-top: 100px" onclick="x()">
+        <button style="margin-top: 100px;height: 100px;width: 500px;background-color: aquamarine" onclick="x()">
             点击返回商店
         </button>
     </center>
