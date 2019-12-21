@@ -98,6 +98,18 @@
     document.getElementById("number3").innerHTML = "<%=number3%>";
     document.getElementById("number4").innerHTML = "<%=number4%>";
     document.getElementById("number5").innerHTML = "<%=number5%>";
+
+    // function a() {
+    //     var json={
+    //         "ds_pi":
+    //         [
+    //             {"target":2,"source":1,"amount":3}
+    //         ]
+    //     };
+    //     var url = "http://192.168.137.197:8000/pay?da="+encodeURI(json);
+    // }
+
+
 </script>
 </body>
 </html>

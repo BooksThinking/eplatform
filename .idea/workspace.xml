@@ -7,8 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b03b540-796e-4381-81f9-e781da4a3386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/paySuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sha256.crt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eplatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eplatform.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/WEB-INF/classes/servlet/eplatformServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/WEB-INF/classes/servlet/eplatformServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/loginSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/eplatform_war_exploded/loginSuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eplatform/servlet/eplatformServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/eplatform/servlet/eplatformServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servlet/eplatformServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/eplatformServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginSuccess.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,31 +33,16 @@
         <entry file="file://$PROJECT_DIR$/src/servlet/eplatformServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="41" />
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entities/shopInfo.java">
+        <entry file="file://$PROJECT_DIR$/web/paySuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="397">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -77,7 +69,6 @@
         <option value="$PROJECT_DIR$/web/ECP_HTML.html" />
         <option value="$PROJECT_DIR$/src/entities/user.java" />
         <option value="$PROJECT_DIR$/src/servlet/loginSuccess.html" />
-        <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/web/html/loginSuccess.html" />
         <option value="$PROJECT_DIR$/web/html/login.html" />
         <option value="$PROJECT_DIR$/src/dao/loginDao.java" />
@@ -86,9 +77,14 @@
         <option value="$PROJECT_DIR$/web/test.jsp" />
         <option value="$PROJECT_DIR$/src/entities/production.java" />
         <option value="$PROJECT_DIR$/src/dao/eplatformDao.java" />
-        <option value="$PROJECT_DIR$/web/loginSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/entities/shopInfo.java" />
         <option value="$PROJECT_DIR$/src/servlet/loginServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.html" />
+        <option value="$PROJECT_DIR$/web/sha256.crt" />
+        <option value="$PROJECT_DIR$/web/loginSuccess.jsp" />
+        <option value="$PROJECT_DIR$/web/test.html" />
+        <option value="$PROJECT_DIR$/web/paySuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/md5.java" />
         <option value="$PROJECT_DIR$/src/servlet/eplatformServlet.java" />
       </list>
     </option>
@@ -135,25 +131,29 @@
             <path>
               <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
               <item name="eplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eplatform" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaMD5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaMD5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javamd5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eplatform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JavaMD5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javamd5" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,16 +165,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25768822" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12455\IdeaProjects\eplatform\web\img" />
       <recent name="C:\Users\12455\IdeaProjects\eplatform\web" />
       <recent name="C:\Users\12455\IdeaProjects\eplatform\web\html" />
     </key>
@@ -204,6 +205,13 @@
     </configuration>
     <configuration name="loginDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.loginDao" />
+      <module name="eplatform" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="md5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="servlet.md5" />
       <module name="eplatform" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -384,6 +392,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.md5" />
         <item itemvalue="Application.eplatformDao" />
         <item itemvalue="Tomcat Server.loginSuccess.html" />
         <item itemvalue="Application.loginDao" />
@@ -403,7 +412,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" weight="0.29088473" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" weight="0.31903484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +422,7 @@
       <window_info id="Web" order="7" sideWeight="0.50147057" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30441177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24117647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4735294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,7 +446,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" weight="0.29088473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.31903484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -447,7 +456,7 @@
       <window_info id="Web" order="7" sideWeight="0.50147057" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30441177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33529413" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4735294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -535,34 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#center#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entities/shopInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="320">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#69#70#0" expanded="true" />
             <element signature="e#97#98#0" expanded="true" />
@@ -572,10 +557,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/MySoftware/json_all-master/json_all-master/json-lib-1.1-jdk13.jar!/net/sf/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#center#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.html" />
+    <entry file="file://$PROJECT_DIR$/web/sha256.crt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MySoftware/Md5加密jar包/JavaMD5.jar!/com/ndktools/javamd5/core/MD5.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MySoftware/Md5加密jar包/JavaMD5.jar!/com/ndktools/javamd5/Javamd5ts.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MySoftware/Md5加密jar包/JavaMD5.jar!/com/ndktools/javamd5/Mademd5.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/md5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/loginSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="97" column="66" selection-start-line="97" selection-start-column="66" selection-end-line="97" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/paySuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/eplatformServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="41" />
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -590,7 +649,6 @@
             <option name="proportions">
               <list>
                 <option value="0.25768822" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

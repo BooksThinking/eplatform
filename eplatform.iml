@@ -32,5 +32,39 @@
         <jarDirectory url="file://D:/MySoftware/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/MySoftware/json_all-master/json_all-master" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/MySoftware/json_all-master/json_all-master" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/MySoftware/Md5加密jar包/JavaMD5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13" />
+        </SOURCES>
+        <jarDirectory url="file://D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13" recursive="false" />
+        <jarDirectory url="file://D:/MySoftware/commons-codec-1.13-bin/commons-codec-1.13" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
