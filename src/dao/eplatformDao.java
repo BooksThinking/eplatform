@@ -44,6 +44,8 @@ public class eplatformDao {
         return productionList;
     }
 
+
+
     public String decrypt(String str, String privateKey) throws Exception{
         //64位解码加密后的字符串
         byte[] inputByte = Base64.decodeBase64(str.getBytes("UTF-8"));

@@ -19,11 +19,11 @@
         }
     </style>
 </head>
-<body onload="a()">
+<body style="background-color: azure">
 <form action="/eplatformServlet" method="post">
     <div class="container">
         <div>
-            <img src="img/xiaomi8.jpg" height="300px" width="300px">
+            <img src="img/xiaomi8.jpg" height="250px" width="250px">
             <li>商品名称:<b id="production1">商品1</b></li>
             <li>商品价格:<b id="price1">价格1</b></li>
             <li>商品数量:<b id="number1">数量1</b></li>
@@ -32,7 +32,7 @@
             <input type="button" value="-" onclick="javascript:this.form.count1.value--;">
         </div>
         <div>
-            <img src="img/xiaomi9.jpg" height="300px" width="300px">
+            <img src="img/xiaomi9.jpg" height="250px" width="250px">
             <li>商品名称:<b id="production2">商品2</b></li>
             <li>商品价格:<b id="price2">价格2</b></li>
             <li>商品数量:<b id="number2">数量2</b></li>
@@ -41,7 +41,7 @@
             <input type="button" value="-" onclick="javascript:this.form.count2.value--;">
         </div>
         <div>
-            <img src="img/redminote8.jpg" height="300px" width="300px">
+            <img src="img/redminote8.jpg" height="250px" width="250px">
             <li>商品名称:<b id="production3">商品3</b></li>
             <li>商品价格:<b id="price3">价格3</b></li>
             <li>商品数量:<b id="number3">数量3</b></li>
@@ -50,7 +50,7 @@
             <input type="button" value="-" onclick="javascript:this.form.count3.value--;">
         </div>
         <div>
-            <img src="img/redmik20pro.jpg" height="300px" width="300px">
+            <img src="img/redmik20pro.jpg" height="250px" width="250px">
             <li>商品名称:<b id="production4">商品4</b></li>
             <li>商品价格:<b id="price4">价格4</b></li>
             <li>商品数量:<b id="number4">数量4</b></li>
@@ -59,7 +59,7 @@
             <input type="button" value="-" onclick="javascript:this.form.count4.value--;">
         </div>
         <div>
-            <img src="img/iphone.jpg" height="300px" width="300px">
+            <img src="img/iphone.jpg" height="250px" width="250px">
             <li>商品名称:<b id="production5">价格5</b></li>
             <li>商品价格:<b id="price5">价格5</b></li>
             <li>商品数量:<b id="number5">数量5</b></li>
@@ -67,8 +67,11 @@
             <input type="button" value="+" onclick="javascript:this.form.count5.value++;">
             <input type="button" value="-" onclick="javascript:this.form.count5.value--;">
         </div>
-    <input type="submit" value="购买所有选中商品">
     </div>
+
+    <center>
+        <input type="submit" value="购买所有选中商品" style="margin-top:300px;height: 100px;width: 700px">
+    </center>
 
 </form>
 <script type="text/javascript">

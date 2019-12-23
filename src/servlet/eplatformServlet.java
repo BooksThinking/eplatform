@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.List;
-
 @WebServlet("/eplatformServlet")
 public class eplatformServlet extends HttpServlet {
 
